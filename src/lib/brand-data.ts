@@ -1,3 +1,6 @@
+import timbertechDeckingCatalog from "../../timbertech-decking.cleaned.json";
+import trexDeckingCatalog from "../../trex-decking.cleaned.json";
+
 export interface BrandColor {
   name: string;
   hex: string;
@@ -14,6 +17,14 @@ export interface DeckingBrand {
   lines?: DeckingLine[];
   colors?: BrandColor[];
 }
+
+interface DeckingCatalog {
+  brand: string;
+  lines: DeckingLine[];
+}
+
+const TREX_CATALOG = trexDeckingCatalog as DeckingCatalog;
+const TIMBERTECH_CATALOG = timbertechDeckingCatalog as DeckingCatalog;
 
 export type RailSeriesType =
   | "baluster"
@@ -40,64 +51,12 @@ export const BRAND_CATALOG: {
 } = {
   decking_brands: [
     {
-      brand: "Trex",
-      lines: [
-        {
-          name: "Transcend Lineage",
-          colors: [
-            { name: "Hatteras", hex: "#a59784", finish: "Refined Grain" },
-            { name: "Jasper", hex: "#4e3b31", finish: "Refined Grain" },
-            { name: "Biscayne", hex: "#b39c7d", finish: "Refined Grain" },
-            { name: "Rainier", hex: "#8c8d8f", finish: "Refined Grain" },
-          ],
-        },
-        {
-          name: "Transcend",
-          colors: [
-            { name: "Island Mist", hex: "#909291", finish: "Deep Streak" },
-            { name: "Tiki Torch", hex: "#a36e4a", finish: "Deep Streak" },
-            { name: "Havana Gold", hex: "#b38b5d", finish: "Deep Streak" },
-            { name: "Spiced Rum", hex: "#634333", finish: "Deep Streak" },
-          ],
-        },
-        {
-          name: "Enhance",
-          colors: [
-            { name: "Foggy Wharf", hex: "#9ea0a1", finish: "Wood Grain" },
-            { name: "Rocky Harbor", hex: "#8c8378", finish: "Wood Grain" },
-            { name: "Toasted Sand", hex: "#bca38b", finish: "Wood Grain" },
-          ],
-        },
-      ],
+      brand: TREX_CATALOG.brand,
+      lines: TREX_CATALOG.lines,
     },
     {
-      brand: "TimberTech (AZEK)",
-      lines: [
-        {
-          name: "Vintage Collection",
-          colors: [
-            { name: "Coastline", hex: "#9c9c9c", finish: "Wire Brushed" },
-            {
-              name: "Weathered Teak",
-              hex: "#b08d57",
-              finish: "Wire Brushed",
-            },
-            { name: "Mahogany", hex: "#7d4a34", finish: "Wire Brushed" },
-            { name: "Dark Hickory", hex: "#4a3c32", finish: "Wire Brushed" },
-          ],
-        },
-        {
-          name: "Landmark Collection",
-          colors: [
-            { name: "Castle Gate", hex: "#7a7a7a", finish: "Cross Cut" },
-            {
-              name: "French White Oak",
-              hex: "#c4b5a3",
-              finish: "Cross Cut",
-            },
-          ],
-        },
-      ],
+      brand: TIMBERTECH_CATALOG.brand,
+      lines: TIMBERTECH_CATALOG.lines,
     },
     {
       brand: "MoistureShield",

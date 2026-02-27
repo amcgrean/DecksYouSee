@@ -1,0 +1,52 @@
+{
+  "brand": "Trex",
+  "lines": [
+    {
+      "name": "Transcend Lineage",
+      "colors": [
+        { "name": "Biscayne", "hex": "#B7A58A", "finish": "Refined Grain" },
+        { "name": "Carmel", "hex": "#CBB7A0", "finish": "Refined Grain" },
+        { "name": "Hatteras", "hex": "#9F9280", "finish": "Refined Grain" },
+        { "name": "Jasper", "hex": "#4F3D33", "finish": "Refined Grain" },
+        { "name": "Rainier", "hex": "#8B8D8F", "finish": "Refined Grain" }
+      ]
+    },
+    {
+      "name": "Transcend",
+      "colors": [
+        { "name": "Island Mist", "hex": "#8E918F", "finish": "Deep Wood Grain" },
+        { "name": "Lava Rock", "hex": "#615047", "finish": "Deep Wood Grain" },
+        { "name": "Rope Swing", "hex": "#A18B71", "finish": "Deep Wood Grain" },
+        { "name": "Spiced Rum", "hex": "#6A4737", "finish": "Deep Wood Grain" },
+        { "name": "Tiki Torch", "hex": "#A56D4A", "finish": "Deep Wood Grain" },
+        { "name": "Havana Gold", "hex": "#B79265", "finish": "Deep Wood Grain" },
+        { "name": "Tree House", "hex": "#6A594C", "finish": "Deep Wood Grain" },
+        { "name": "Vintage Lantern", "hex": "#40342D", "finish": "Deep Wood Grain" }
+      ]
+    },
+    {
+      "name": "Enhance Naturals",
+      "colors": [
+        { "name": "Coastal Bluff", "hex": "#A89A8A", "finish": "Wood Grain" },
+        { "name": "Foggy Wharf", "hex": "#989B9D", "finish": "Wood Grain" },
+        { "name": "Rocky Harbor", "hex": "#877C72", "finish": "Wood Grain" },
+        { "name": "Toasted Sand", "hex": "#B8A089", "finish": "Wood Grain" }
+      ]
+    },
+    {
+      "name": "Enhance Basics",
+      "colors": [
+        { "name": "Beach Dune", "hex": "#B7A28D", "finish": "Wood Grain" },
+        { "name": "Clam Shell", "hex": "#A5A6A2", "finish": "Wood Grain" },
+        { "name": "Saddle", "hex": "#8A684D", "finish": "Wood Grain" }
+      ]
+    },
+    {
+      "name": "Select",
+      "colors": [
+        { "name": "Pebble Grey", "hex": "#A1A3A0", "finish": "Wood Grain" },
+        { "name": "Saddle", "hex": "#8B6A4F", "finish": "Wood Grain" }
+      ]
+    }
+  ]
+}

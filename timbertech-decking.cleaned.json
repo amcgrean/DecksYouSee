@@ -1,0 +1,21 @@
+{
+  "brand": "TimberTech (AZEK)",
+  "lines": [
+    {
+      "name": "Vintage Collection",
+      "colors": [
+        { "name": "Coastline", "hex": "#9C9C9C", "finish": "Wire Brushed" },
+        { "name": "Weathered Teak", "hex": "#B08D57", "finish": "Wire Brushed" },
+        { "name": "Mahogany", "hex": "#7D4A34", "finish": "Wire Brushed" },
+        { "name": "Dark Hickory", "hex": "#4A3C32", "finish": "Wire Brushed" }
+      ]
+    },
+    {
+      "name": "Landmark Collection",
+      "colors": [
+        { "name": "Castle Gate", "hex": "#7A7A7A", "finish": "Cross Cut" },
+        { "name": "French White Oak", "hex": "#C4B5A3", "finish": "Cross Cut" }
+      ]
+    }
+  ]
+}
